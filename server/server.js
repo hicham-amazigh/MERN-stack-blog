@@ -7,7 +7,7 @@ const Port = "5000"
 // DB connection
 const mongoose = require("mongoose")
 try {
-    mongoose.connect("mongodb+srv://hamazigh:RdtWzQKoyq5ycL9O@cluster0.wig74am.mongodb.net/Mern?retryWrites=true&w=majority")
+    mongoose.connect("mongodb+srv://---------------------------")
 } catch (error) {
     console.log(error)
 }
