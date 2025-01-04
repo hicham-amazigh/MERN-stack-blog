@@ -55,14 +55,14 @@ app.get('/Login', async (req, res)=>{
         }
     }
     const token = jwt.sign({id: user._id}, process.env.SECRET)
-})
+});
 
 
 app.get('/home', (req, res)=>{
     res.send("welcome to home page !")
-})
+});
 
 
 app.listen(Port , ()=>{
     console.log("hello to hicham amazigh server !")
-})
+});
